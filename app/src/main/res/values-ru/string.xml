@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ArtSpaceApp</string>
     <string name="previous">Предыдущий</string>
     <string name="next">Следующий</string>
 

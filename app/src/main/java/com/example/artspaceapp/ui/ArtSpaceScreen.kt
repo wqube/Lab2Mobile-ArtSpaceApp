@@ -24,12 +24,13 @@ fun ArtSpaceScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .verticalScroll(rememberScrollState())
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-
-        ArtworkDisplay(artwork)
+        ArtworkDisplay(
+            artwork = artwork,
+            modifier = Modifier.weight(1f)
+        )
 
         Spacer(modifier = Modifier
             .height(16.dp))

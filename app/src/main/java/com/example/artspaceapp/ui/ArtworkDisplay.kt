@@ -1,8 +1,6 @@
 package com.example.artspaceapp.ui
 
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -16,14 +14,10 @@ fun ArtworkDisplay(
     artwork: Artwork,
     modifier: Modifier = Modifier
 ) {
-    Column(modifier = modifier) {
-        Image(
-            painter = painterResource(artwork.imageResId),
-            contentDescription = stringResource(artwork.titleResId),
-            modifier = Modifier
-                .fillMaxWidth()
-                .weight(1f),
-            contentScale = ContentScale.Fit
-        )
-    }
+    Image(
+        painter = painterResource(artwork.imageResId),
+        contentDescription = stringResource(artwork.titleResId),
+        modifier = modifier.fillMaxWidth(),
+        contentScale = ContentScale.Fit
+    )
 }
