@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">ArtSpaceApp</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+
+    <string name="art_1_title">Starry Night</string>
+    <string name="art_1_author_year">Vincent van Gogh (1889)</string>
+
+    <string name="art_2_title">Black Square</string>
+    <string name="art_2_author_year">Kazimir Malevich (1915)</string>
+
+    <string name="art_3_title">Girl with Peaches</string>
+    <string name="art_3_author_year">Valentin Aleksandrovich Serov (1887)</string>
+
+    <string name="art_4_title">Girl with a Pearl Earring</string>
+    <string name="art_4_author_year">Johannes Vermeer (1665)</string>
+
+    <string name="art_5_title">The Persistence of Memory</string>
+    <string name="art_5_author_year">Salvador Dalí (1934)</string>
 </resources>
