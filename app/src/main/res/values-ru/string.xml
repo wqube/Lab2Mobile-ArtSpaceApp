@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="previous">Предыдущий</string>
+    <string name="next">Следующий</string>
+
+    <string name="art_1_title">Звездная ночь</string>
+    <string name="art_1_author_year">Винсент Ван Гог (1889)</string>
+
+    <string name="art_2_title">Черный квадрат</string>
+    <string name="art_2_author_year">Казимир Малевич (1915)</string>
+
+    <string name="art_3_title">Девочка с персиками</string>
+    <string name="art_3_author_year">Валентин Александрович Серов (1887)</string>
+
+    <string name="art_4_title">Девушка с жемчужной сережкой</string>
+    <string name="art_4_author_year">Ян Вермеер (1665)</string>
+
+    <string name="art_5_title">Постоянство памяти</string>
+    <string name="art_5_author_year">Сальвадор Дали (1934)</string>
+</resources>
